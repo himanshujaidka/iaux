@@ -1,11 +1,13 @@
+import RadioPlayer from './lib/src/radio-player.d';
+import RadioPlayerConfig from './lib/src/models/radio-player-config.d';
+
 export {
   TranscriptConfig,
   TranscriptEntryConfig
 } from '@internetarchive/transcript-view';
 export { AudioSource } from '@internetarchive/audio-element';
 
-export { RadioPlayer } from './lib/src/radio-player.d';
-export { RadioPlayerConfig } from './lib/src/models/radio-player-config.d';
+export { RadioPlayer, RadioPlayerConfig };
 
 export { SearchBackendInterface } from './lib/src/search-handler/search-backends/search-backend-interface.d';
 export { LocalSearchBackend } from './lib/src/search-handler/search-backends/local-search-backend/local-search-backend.d';
