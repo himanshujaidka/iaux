@@ -6,7 +6,6 @@ export { AudioSource } from '@internetarchive/audio-element';
 
 export { RadioPlayer } from './lib/src/radio-player.d';
 export { RadioPlayerConfig } from './lib/src/models/radio-player-config.d';
-
 export { SearchHandler } from './lib/src/search-handler/search-handler.d';
 export { SearchHandlerInterface } from './lib/src/search-handler/search-handler-interface.d';
 export { LocalSearchBackend } from './lib/src/search-handler/search-backends/local-search-backend/local-search-backend.d';
